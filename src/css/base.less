@@ -1,0 +1,47 @@
+@import 'variables.less';
+// 重置浏览器样式
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+// 设置锚点平滑过渡
+html {
+    scroll-behavior: smooth;
+}
+
+// 设置默认字体
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    min-width: 1200px;
+}
+
+// 引入字体文件
+// @font-face {
+//     font-family: 'mfont'; 
+//     src: url('../assets/sanjixinpianticu.ttf');
+// }
+
+input {
+    -moz-appearance: inputfield;
+}
+&::-webkit-outer-spin-button,
+&::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+
+// 去除a标签默认样式
+a {
+    text-decoration: none;
+    color: #333;
+}
+*{
+    transition: all .3s;
+}
